@@ -3,6 +3,8 @@ import { NavController } from 'ionic-angular';
 import { ProfilePage } from '../profile/profile';
 import { EventCreatePage } from '../event-create/event-create';
 import { EventListPage } from '../event-list/event-list';
+import { EventMapPage} from '../map/map';
+
 
 @Component({
   selector: 'page-home',
@@ -23,6 +25,10 @@ export class HomePage {
 
   goToList(){
     this.nav.push(EventListPage);
+  }
+
+  goToMap(){
+    this.nav.push(EventMapPage);
   }
 
 

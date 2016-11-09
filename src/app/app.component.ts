@@ -16,11 +16,11 @@ export class MyApp {
 
   constructor(platform: Platform) {
     firebase.initializeApp({
-      apiKey: "AIzaSyBwEUe6x_w_yLFrr--xYLQJLxRT2Rc8vtY",
-      authDomain: "ionic-firebase-auth-9f555.firebaseapp.com",
-      databaseURL: "https://ionic-firebase-auth-9f555.firebaseio.com",
-      storageBucket: "ionic-firebase-auth-9f555.appspot.com",
-      messagingSenderId: "904481277327"
+      apiKey: "AIzaSyA1L6RhvOO7CfNisZr2pmCD-RfIkatStNc",
+      authDomain: "potholealert-c7a09.firebaseapp.com",
+      databaseURL: "https://potholealert-c7a09.firebaseio.com",
+      storageBucket: "potholealert-c7a09.appspot.com",
+      messagingSenderId: "1003430972671"
     });
 
     firebase.auth().onAuthStateChanged((user) => {

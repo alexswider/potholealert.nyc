@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "potholesalert",
+  "author": "alex swiderski",
+  "homepage": "http://potholesalert.nyc/",
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
